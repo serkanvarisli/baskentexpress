@@ -72,6 +72,7 @@ const placePassenger = (
                         VagonAdi: vagon.Ad,
                         KisiSayisi: passangerCount,
                     });
+                    passangerCount -= freeSeat;
                 }
             } else {
                 if (freeSeat >= passangerCount) {
